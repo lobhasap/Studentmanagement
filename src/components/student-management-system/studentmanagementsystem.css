@@ -1,0 +1,285 @@
+/* General Styles */
+
+.header {
+  background-color: #1a1a1a;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header nav ul li a:hover {
+  color: #0055a0; /* Yellow color on hover */
+}
+
+.welcome-section {
+  background-color: #0055a0; /* Dark blue */
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.welcome-section h2 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.empowerment-section,
+.about-us-section,
+.contact-us-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-us-section h2,
+.contact-us-section h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  font-style: italic;
+}
+
+.contact-us-section p {
+  color: #0055a0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Home.css */
+
+.image-overlay {
+  position: relative;
+  display: block;
+}
+
+.image-overlay h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* White text color */
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.image-overlay img {
+  width: 100vw;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-us-section h2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #2ecc71, #0055a0); /* Gradient color */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Register.css */
+
+.register-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-right: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ecf0f1; /* Light gray */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.register-container label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.register-container input,
+.register-container textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.register-container button {
+  padding: 12px 24px;
+  background-color: #e67e22; /* Orange color */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.register-container button:hover {
+  background-color: #d35400; /* Darker orange on hover */
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* Login.css */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  width: 50%;
+}
+
+.form-container1 {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form1 label {
+  margin-bottom: 5px;
+}
+
+.form1 input[type="email"],
+.form1 input[type="tel"],
+.form1 input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+
+.form1 button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 35px;
+  background-color: #0055a0; /* Blue color */
+  color: #fff; /* White text color */
+  cursor: pointer;
+}
+
+.form1 button[type="submit"]:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.small-icon {
+  width: 20px; /* Adjust the width as per your preference */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.contact-us-section {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #0055a0; /* Orange background color */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-us-section h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  font-style: italic;
+  color: #fff; /* White text color */
+  margin-bottom: 20px;
+}
+
+.contact-us-section p {
+  color: #fff; /* White text color */
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/*About Us*/
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
