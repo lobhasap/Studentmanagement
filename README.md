@@ -1,3 +1,8 @@
+![image](https://github.com/lobhasap/Studentmanagement/assets/142318426/72adf2b9-8dc7-4c0c-97f9-d82dcfd4dac8)
+![image](https://github.com/lobhasap/Studentmanagement/assets/142318426/615cdc41-4e83-4b97-aca2-56d96c6b9505)
+![image](https://github.com/lobhasap/Studentmanagement/assets/142318426/055173bf-a37a-4086-a394-04e73fae845a)
+![image](https://github.com/lobhasap/Studentmanagement/assets/142318426/bee142a8-85ce-4010-8b6c-f74894a984e6)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
